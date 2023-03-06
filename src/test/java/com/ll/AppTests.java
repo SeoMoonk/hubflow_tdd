@@ -21,6 +21,8 @@ public class AppTests {
         System.out.print("안녕");
         String rs = output.toString();
         TestUtil.clearSetOutToByteArray(output);
+
+        System.out.println("안녕");
     }
 
     @Test
