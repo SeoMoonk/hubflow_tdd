@@ -63,6 +63,8 @@ public class AppTests {
 
             assertThat(rs)
                     .contains("올바르지 않은 명령입니다.");
+
+            System.out.println("제발");
         }
         // 앱 테스트 끝
     }
